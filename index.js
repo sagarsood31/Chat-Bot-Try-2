@@ -16,5 +16,5 @@ console.log(response.choices[0].messages)
 res.send(response.choices[0].messages)
 })
 app.listen (9131,()=>{
-console.log("server started")
+console.log("server start")
 })
